@@ -1,0 +1,36 @@
+﻿<math xmlns="http://www.w3.org/1998/Math/MathML" mathvariant='italic' display='inline'>
+    <msub>
+        <mi>R</mi>
+        <mi>i</mi>
+    </msub>
+    <msup>
+        <mtext></mtext>
+        <mi>j</mi>
+    </msup>
+    <msub>
+        <mtext></mtext>
+        <mtext>kl</mtext>
+    </msub>
+    <mo>=</mo>
+    <msup>
+        <mi>g</mi>
+        <mtext>jm</mtext>
+    </msup>
+    <msub>
+        <mi>R</mi>
+        <mtext>imkl</mtext>
+    </msub>
+    <mo>+</mo>
+    <msqrt>
+        <mn>1</mn>
+        <mo>-</mo>
+        <msup>
+            <mi>g</mi>
+            <mtext>jm</mtext>
+        </msup>
+        <msub>
+            <mi>R</mi>
+            <mtext>mikl</mtext>
+        </msub>
+    </msqrt>
+</math>

@@ -1,0 +1,6 @@
+c:\users\administrator\documents\visual studio 2010\Projects\OpenXML-SDK\OpenXML-SDK\bin\Debug\OpenXML-SDK.exe
+c:\users\administrator\documents\visual studio 2010\Projects\OpenXML-SDK\OpenXML-SDK\bin\Debug\OpenXML-SDK.pdb
+c:\users\administrator\documents\visual studio 2010\Projects\OpenXML-SDK\OpenXML-SDK\obj\x86\Debug\OpenXML-SDK.exe
+c:\users\administrator\documents\visual studio 2010\Projects\OpenXML-SDK\OpenXML-SDK\obj\x86\Debug\OpenXML-SDK.pdb
+C:\Users\Administrator\documents\visual studio 2010\Projects\OpenXML-SDK\OpenXML-SDK\obj\x86\Debug\OpenXML-SDK.csproj.ResolveComReference.cache
+C:\Users\Administrator\documents\visual studio 2010\Projects\OpenXML-SDK\OpenXML-SDK\obj\x86\Debug\Interop.AccessibilityCplAdminLib.dll
