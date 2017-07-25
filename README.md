@@ -57,7 +57,15 @@
 
 我们还需要由微软开发的[Open-XML-SDK](https://github.com/OfficeDev/Open-XML-SDK)来提供这些操作，你可以到微软的官网[下载](https://www.microsoft.com/en-us/search/result.aspx?q=open+xml+sdk),当然，我这里也上传到了Github上，你可以在根目录下找到该安装包文件[OpenXMLSDKV25.msi](https://github.com/scalad/MathML2Word/blob/master/doc/OpenXMLSDKV25.msi)。
 
-具体的实现代码如下：
+为什么需要这个Open-XML-SDK呢？，我们首先需要了解一下[Office Open XML](https://zh.wikipedia.org/wiki/Office_Open_XML).
+
+Office Open XML（缩写：Open XML、OpenXML或OOXML），为由Microsoft开发的一种以XML为基础并以ZIP格式压缩的电子文件规范，支持文件、表格、备忘录、幻灯片等文件格式。
+
+OOXML在2006年12月成为了ECMA规范的一部分，编号为ECMA-376；并于2008年4月通过国际标准化组织的表决，在两个月后公布为ISO／IEC 29500国际标准。微软推出这个格式，很多人认为是商业考量。许多专家指出，该标准并不是个完整的标准，使用上困难重重。
+
+从Microsoft Office 2007开始，Office Open XML文件格式已经成为Microsoft Office默认的文件格式。Microsoft Office 2010支持对ECMA-376标准文档的读操作，ISO/IEC 29500 Transitional的读/写，ISO/IEC 29500 Strict的读取。Microsoft Office 2013同时支持ISO/IEC 29500 Strict的读写操作。
+
+具体的实现把MATHML转换为Word文档的代码如下：
 
 ```C#
         public static void MathML2Word()
