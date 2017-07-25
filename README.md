@@ -6,11 +6,11 @@
 
 有些时候，我们想要将MATHML导出到Word中方便查看，我们该怎样实现呢？这个时候我们还需要了解一下微软Office的[OMML(Office math markup language)]()标记语言，它是一种在WORD里面进行公式表达的标记语法，是以XML结构来存储的。遗憾的是，MATHML并不能直接转换为Word文档，它需要先转换为OMML。
 
-那么如何将MathML转换为OMML？答案是使用一个转换文件——MML2OMML.xsl，这个文件是office自带的，位于目录：%ProgramFiles%\Microsoft Office\Office12\之下（若你用的是office 2016，则在%ProgramFiles%\Microsoft Office\Office16\目录）。
+那么如何将MathML转换为OMML？答案是使用一个转换文件——`MML2OMML.xsl`，这个文件是office自带的，位于目录：`%ProgramFiles%\Microsoft Office\Office12\`之下（若你用的是office 2016，则在`%ProgramFiles%\Microsoft Office\Office16\`目录）。
 
 不知你是否知道，将MathML公式以文本的形式粘贴到Word中时，它会自动变成Word公式，这个操作的背后就是MML2OMML.xsl在起作用。同样的目录下还有一个文件OMML2MML.xsl，它的作用是反过来转换，我们这里用不到。
 
-![](https://github.com/scalad/MathML2Word/blob/master/doc/image/20170725164449.png)
+![](https://github.com/scalad/MathML2Word/blob/master/doc/image/20170725164448.png)
 这个式子的MATHML的XML代码如下：
 
 ```xml
