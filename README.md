@@ -55,7 +55,7 @@
 
 具体的实现过程参考了[https://stackoverflow.com/questions/10993621/openxml-sdk-and-mathml](https://stackoverflow.com/questions/10993621/openxml-sdk-and-mathml)
 
-我们还需要由微软开发的[Open-XML-SDK](https://github.com/OfficeDev/Open-XML-SDK)来提供这些操作，你可以到微软的官网[下载](https://www.microsoft.com/en-us/search/result.aspx?q=open+xml+sdk),当然，我这里也上传到了Github上，你可以在根目录下找到该安装包文件[OpenXMLSDKV25.msi](https://github.com/scalad/MathML2Word/blob/master/OpenXMLSDKV25.msi)。
+我们还需要由微软开发的[Open-XML-SDK](https://github.com/OfficeDev/Open-XML-SDK)来提供这些操作，你可以到微软的官网[下载](https://www.microsoft.com/en-us/search/result.aspx?q=open+xml+sdk),当然，我这里也上传到了Github上，你可以在根目录下找到该安装包文件[OpenXMLSDKV25.msi](https://github.com/scalad/MathML2Word/blob/master/doc/OpenXMLSDKV25.msi)。
 
 具体的实现代码如下：
 
